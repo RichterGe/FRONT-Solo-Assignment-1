@@ -1,22 +1,22 @@
 <script setup>
-import { ref } from 'vue'
-import { computed } from 'vue'
+    import { ref } from 'vue'
+    import { computed } from 'vue'
 
-const count = ref(0)
-const doubled = computed(() => count.value*2)
-// const doubled = ref(2)
+    const count = ref(0)
+    const doubled = computed(() => count.value*2)
+    // const doubled = ref(2)
 
-function increment () {
-    count.value++;
-}
+    function increment () {
+        count.value++;
+    }
 
-function decrement () {
-    count.value--;
-}
+    function decrement () {S
+        count.value--;
+    }
 
-const incrementThatIsSomehowBetter = () => {
-    count++;
-}
+    const incrementThatIsSomehowBetter = () => {
+        count++;
+    }
 
 </script>
 

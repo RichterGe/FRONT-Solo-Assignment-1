@@ -6,7 +6,7 @@ Not entirely sure what to put here
 ## Additional Context
 It has been a while since my last web design experience (10+ yrs) so there is a lot for me to catch up on.
 
-Currently this project contains step A.
+Currently this project contains step A and a somewhat rough step B.
 
 ## AI Disclosure
 I use AI primarily to explain concepts to me. All code directly asked for in the current task is purely written by me.
