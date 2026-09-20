@@ -21,7 +21,11 @@ const incrementThatIsSomehowBetter = () => {
 </script>
 
 <template>
-     <h1>Test num {{ count }}, double: {{ doubled }}</h1>
+     <p>
+        Counter: {{ count }}
+        <br>
+        Doubled: {{ doubled }}
+     </p>
      <p>
         <button @click="increment()">Up</button>
         <button @click="decrement()">Down</button>
